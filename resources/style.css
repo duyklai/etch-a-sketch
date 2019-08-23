@@ -1,0 +1,52 @@
+header 
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+header h1
+{
+    font-size: 40px;
+    color: black;
+}
+
+body
+{
+    background: #ffaec8;
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+
+#gridContainer
+{
+    display: grid;
+    width: 40vw;
+    height: 40vw;
+    border: 10px solid black;
+    margin: auto auto;
+}
+
+.cell
+{
+    border: 1px dashed grey;
+}
+
+button
+{
+    font-size: 15px;
+    display: inline;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+}
+
+button:hover
+{
+    background-color: #ff94b6;
+    color: black;
+}

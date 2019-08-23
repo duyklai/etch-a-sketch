@@ -2,11 +2,23 @@
 <html>
 <head>
     <title>SketchPad</title>
+    <link rel="stylesheet" type="text/css" href="resources\style.css">
 </head>
 
 <body>
+    <header>
+      <h1>Weclome to Etch-a-Sketch</h1>
+    </header>
+
+    <div id="mainContainer">
+        <button onclick="remake()">Generate New</button>
+        <button onclick="remake()">Clear</button>
+        <button id="color" onclick="changeColor()">Black</button>
+        <div id="gridContainer">
+        </div>
+    </div>
+
+    <script src="resources\sketch_script.js"></script>
 </body>
 
-<footer>
-</footer>
 </html>
